@@ -1,0 +1,25 @@
+.page-header {
+  height: 80px;
+  background: #0a112d;
+  border-bottom: 1px solid wheat;
+}
+.conteiner-block {
+  display: flex;
+  align-items: center;
+}
+.page-nav {
+  display: flex;
+}
+.page-nav__list {
+  display: flex;
+}
+.page-nav__link {
+  color: $backgroundWhitecolor;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.logo {
+  color: rgb(95, 250, 95);
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
