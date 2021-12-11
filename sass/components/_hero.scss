@@ -1,5 +1,51 @@
 .hero {
-  padding-top: 300px;
-  padding-bottom: 300px;
+  padding-top: 150px;
+  padding-bottom: 250px;
   background: #0a112d;
+}
+.hero__title {
+  width: 700px;
+  font-weight: 700;
+
+  font-size: 49px;
+  text-align: center;
+  color: $colorIcon;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 60px;
+}
+.hero__text {
+  color: green;
+  text-decoration: underline;
+}
+.hero__text2 {
+  color: $colorIcon;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid $colorIcon;
+  width: 300px;
+  padding: 15px;
+  border-radius: 22px;
+  background: green;
+  margin-bottom: 20px;
+}
+.hero__list {
+  display: flex;
+  justify-content: center;
+}
+.hero__item {
+  &:not(:last-child) {
+    margin-right: 15px;
+  }
+}
+.hero__icon {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  margin-left: 12px;
+  margin-bottom: 5px;
+}
+.hero__link {
+  color: $colorIcon;
 }

@@ -13,6 +13,11 @@
 .page-nav__list {
   display: flex;
 }
+.page-nav__item {
+  &:not(:last-child) {
+    margin-right: 50px;
+  }
+}
 .page-nav__link {
   color: $backgroundWhitecolor;
   padding-top: 32px;
@@ -22,4 +27,24 @@
   color: rgb(95, 250, 95);
   padding-top: 32px;
   padding-bottom: 32px;
+  margin-right: 90px;
+}
+.contacts {
+  display: flex;
+  margin-left: auto;
+}
+.contacts__link {
+  color: $backgroundWhitecolor;
+}
+.contacts__item {
+  &:not(:last-child) {
+    margin-right: 50px;
+  }
+}
+.contacts__icon {
+  margin-right: 10px;
+}
+.contacts__link {
+  display: flex;
+  align-items: center;
 }
