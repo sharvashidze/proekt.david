@@ -260,8 +260,8 @@ img {
 }
 
 .hero__icon {
-  width: 45px;
-  height: 45px;
+  width: 35px;
+  height: 35px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
