@@ -1,14 +1,21 @@
 .hero {
+  max-width: 1920px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../../images/fon.jpg);
   padding-top: 150px;
-  padding-bottom: 250px;
-  background: #0a112d;
+  padding-bottom: 50px;
+  background-color: #0a112d;
 }
 .hero__title {
-  max-width: 700px;
+  max-width: 696px;
   font-weight: 700;
-
+  font-family: Raleway;
   font-size: 49px;
   text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
   color: $colorIcon;
   margin-right: auto;
   margin-left: auto;
@@ -19,13 +26,17 @@
   text-decoration: underline;
 }
 .hero__text2 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
   color: $colorIcon;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
   border: 1px solid $colorIcon;
-  max-width: 300px;
-  padding: 15px;
+  max-width: 450px;
+  padding: 10px;
   border-radius: 22px;
   background: green;
   margin-bottom: 20px;
