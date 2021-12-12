@@ -1,0 +1,26 @@
+.about {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.about__video {
+  position: absolute;
+  top: 61px;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.conteiner-body {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.content {
+  padding-top: 61px;
+}
