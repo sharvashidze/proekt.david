@@ -4,7 +4,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 150px;
+  padding-top: 120px;
   padding-bottom: 50px;
   background-color: #0a112d;
   margin-right: auto;
@@ -14,13 +14,14 @@
   }
 }
 .hero__title {
-  max-width: 696px;
-  font-weight: 700;
-  font-family: Raleway;
-  font-size: 49px;
+  max-width: 360px;
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 1.61;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  // font-family: Raleway;
   color: $TextColor;
   margin-right: auto;
   margin-left: auto;
@@ -32,15 +33,15 @@
 }
 .hero__text2 {
   font-weight: 700;
-  font-size: 18px;
-  line-height: 36px;
+  font-size: 16px;
+  line-height: 26px;
   letter-spacing: 0.06em;
-  color: $colorIcon;
+  color: $backgroundWhitecolor;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
   border: 1px solid $colorIcon;
-  max-width: 450px;
+  max-width: 250px;
   padding: 10px;
   border-radius: 22px;
   background: green;
@@ -63,5 +64,6 @@
   margin-bottom: 5px;
 }
 .hero__link {
-  color: $colorIcon;
+  color: $TextColor;
+  font-weight: 900;
 }
