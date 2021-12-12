@@ -25,7 +25,7 @@
     <header class="page-header">
       <div class="conteiner conteiner-block">
         <a href="" class="logo">GREAN<span class="logo__text">WAY</span></a>
-        <button type="button" class="page-header__btn">
+        <button type="button" class="page-header__btn js-open-Btn">
           <svg width="24" height="16" class="page-header__icon">
             <use href="./images/symbol-defs.svg#icontelmenu"></use>
           </svg>
@@ -97,5 +97,43 @@
         </div>
       </section>
     </main>
+    <div class="mobile js-container-mobile">
+      <button type="button" class="mobile__btn js-close-Btn" id="mobile-menu">
+        <svg width="24" height="16" class="mobile__icon">
+          <use href="./images/symbol-defs.svg#iconmenuX"></use>
+        </svg>
+      </button>
+      <ul class="mobile__list">
+        <li class="mobile__item">
+          <a href="index.html" class="mobile__link">ДОМОЙ</a>
+        </li>
+        <li class="mobile__item">
+          <a href="" class="mobile__link">ПРО НАС</a>
+        </li>
+        <li class="mobile__item">
+          <a href="" class="mobile__link">ПРЕЗЕНТАЦИЯ</a>
+        </li>
+        <li class="mobile__item">
+          <a href="" class="mobile__link">ПОРТФОЛИО</a>
+        </li>
+      </ul>
+      <ul class="mobile-contacts">
+        <li class="mobile-contacts__item">
+          <a href="tell:+79263258559" class="mobile-contacts__link"
+            ><svg width="24" height="24" class="mobile-contacts__icon">
+              <use href="./images/symbol-defs.svg#iconphonehead"></use></svg
+            >7-926-325-85-59</a
+          >
+        </li>
+        <li class="mobile-contacts__item">
+          <a href="mailto:david@mail.ru" class="mobile-contacts__link"
+            ><svg width="24" height="24" class="mobile-contacts__icon">
+              <use href="./images/symbol-defs.svg#iconmailhead"></use></svg
+            >david@mail.ru</a
+          >
+        </li>
+      </ul>
+    </div>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
