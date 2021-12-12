@@ -41,9 +41,9 @@ img {
   padding-right: 15px;
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 480px) {
   .conteiner {
-    width: 320px;
+    width: 480px;
   }
 }
 
@@ -60,7 +60,6 @@ img {
 }
 
 .page-header {
-  height: 80px;
   background-color: transparent;
   border-bottom: 1px solid wheat;
   position: absolute;
@@ -170,14 +169,22 @@ img {
 }
 
 .hero {
-  max-width: 1920px;
+  max-width: 1600px;
+  background-image: url(../../images/fon.1x0ojCa.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(../../images/fon.jpg);
   padding-top: 150px;
   padding-bottom: 50px;
   background-color: #0a112d;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 2dppx) {
+  .hero {
+    background-image: url(../../images/fon2x.239OQ.jpg);
+  }
 }
 
 .hero__title {
@@ -188,7 +195,7 @@ img {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #afb1b8;
+  color: #212121;
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 60px;

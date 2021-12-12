@@ -1,12 +1,17 @@
 .hero {
-  max-width: 1920px;
+  max-width: 1600px;
+  background-image: url(../../images/fon.1x0ojCa.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(../../images/fon.jpg);
   padding-top: 150px;
   padding-bottom: 50px;
   background-color: #0a112d;
+  margin-right: auto;
+  margin-left: auto;
+  @media screen and (min-resolution: 2dppx) {
+    background-image: url(../../images/fon2x.239OQ.jpg);
+  }
 }
 .hero__title {
   max-width: 696px;
@@ -16,7 +21,7 @@
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: $colorIcon;
+  color: $TextColor;
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 60px;
