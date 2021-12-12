@@ -170,7 +170,7 @@ img {
 
 .hero {
   max-width: 1600px;
-  background-image: url(../../images/fon.1x0ojCa.jpg);
+  background-image: url(../images/fon.1x0ojCa.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -183,7 +183,7 @@ img {
 
 @media screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 2dppx) {
   .hero {
-    background-image: url(../../images/fon2x.239OQ.jpg);
+    background-image: url(../images/fon2x.239OQ.jpg);
   }
 }
 
