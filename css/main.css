@@ -69,6 +69,10 @@ img {
   width: 100%;
 }
 
+.page-header__icon {
+  fill: #8bfa8b;
+}
+
 .conteiner-block {
   display: -webkit-box;
   display: -ms-flexbox;
