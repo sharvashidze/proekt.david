@@ -42,7 +42,7 @@ $('body').on('click touchstart', function () {
             else {
                 // video is not playing
                 // so play video now
-                videoElement.play();
+                videoElement.play('merivideo');
             }
     });
 });
