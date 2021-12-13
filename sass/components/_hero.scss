@@ -14,6 +14,8 @@
   }
 }
 .hero__title {
+  position: relative;
+  z-index: 1;
   max-width: 360px;
   font-weight: 900;
   font-size: 26px;
@@ -66,3 +68,20 @@
   color: $TextColor;
   font-weight: 900;
 }
+// .hero-photo__list {
+//   position: absolute;
+//   display: flex;
+//   top: 40%;
+//   left: 0;
+//   transform: translate(-50%);
+// }
+// .hero-photo__item {
+//   width: 150px;
+//   transform: rotate(20deg);
+//   &:not(:last-child) {
+//     margin-right: 40px;
+//   }
+// }
+// .hero-photo__item--left {
+//   transform: rotate(-20deg);
+// }

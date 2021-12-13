@@ -211,6 +211,8 @@ img {
 }
 
 .hero__title {
+  position: relative;
+  z-index: 1;
   max-width: 360px;
   font-weight: 900;
   font-size: 26px;
@@ -356,6 +358,7 @@ img {
 
 .mobile-contacts__link {
   font-weight: 500;
+  font-size: 4vw;
   letter-spacing: 0.02em;
   color: #212121;
   display: -webkit-box;
