@@ -37,6 +37,8 @@
 }
 .mobile__list {
   margin-bottom: 80px;
+  text-align: center;
+  margin-top: 65px;
 }
 .mobile__item {
   &:not(:last-child) {
@@ -51,7 +53,7 @@
   color: $TextColor;
 }
 .mobile-contacts {
-  display: flex;
+  text-align: center;
 }
 .mobile-contacts__link {
   font-weight: 500;
@@ -67,6 +69,6 @@
 }
 .mobile-contacts__item {
   &:not(:last-child) {
-    margin-right: 15px;
+    margin-bottom: 15px;
   }
 }

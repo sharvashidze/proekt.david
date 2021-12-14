@@ -40,10 +40,16 @@
 }
 .about__title {
   font-weight: 900;
-  font-size: 30px;
+  font-size: 26px;
   line-height: 1.61;
   text-align: center;
   letter-spacing: 0.06em;
   color: $backgroundWhitecolor;
   text-transform: uppercase;
+  @media screen and (min-width: 480px) and (max-width: 767px) {
+    font-size: 30px;
+  }
+  @media screen and (min-width: 768px) {
+    font-size: 49px;
+  }
 }

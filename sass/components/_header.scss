@@ -1,5 +1,5 @@
 .page-header {
-  background-color: transparent;
+  background-color: green;
   border-bottom: 1px solid $TextColor;
   position: absolute;
   top: 0;
@@ -23,6 +23,9 @@
   cursor: pointer;
   &:hover .page-header__icon {
     fill: rgb(139, 250, 139);
+  }
+  @media screen and (min-width: 768px) {
+    display: none;
   }
 }
 .conteiner-block {
@@ -72,8 +75,9 @@
   padding: 16px 0;
   letter-spacing: 0.03em;
   color: rgb(95, 250, 95);
-
-  // margin-right: 90px;
+  @media screen and (min-width: 768px) {
+    margin-right: 90px;
+  }
 }
 // .contacts {
 //   display: flex;

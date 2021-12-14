@@ -60,7 +60,7 @@ img {
 }
 
 .page-header {
-  background-color: transparent;
+  background-color: green;
   border-bottom: 1px solid #212121;
   position: absolute;
   top: 0;
@@ -95,6 +95,12 @@ img {
 
 .page-header__btn:hover .page-header__icon {
   fill: #8bfa8b;
+}
+
+@media screen and (min-width: 768px) {
+  .page-header__btn {
+    display: none;
+  }
 }
 
 .conteiner-block {
@@ -152,6 +158,12 @@ img {
   padding: 16px 0;
   letter-spacing: 0.03em;
   color: #5ffa5f;
+}
+
+@media screen and (min-width: 768px) {
+  .logo {
+    margin-right: 90px;
+  }
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
@@ -336,6 +348,8 @@ img {
 
 .mobile__list {
   margin-bottom: 80px;
+  text-align: center;
+  margin-top: 65px;
 }
 
 .mobile__item:not(:last-child) {
@@ -351,9 +365,7 @@ img {
 }
 
 .mobile-contacts {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  text-align: center;
 }
 
 .mobile-contacts__link {
@@ -377,7 +389,7 @@ img {
 }
 
 .mobile-contacts__item:not(:last-child) {
-  margin-right: 15px;
+  margin-bottom: 15px;
 }
 
 .page-header__about {
@@ -429,11 +441,23 @@ img {
 
 .about__title {
   font-weight: 900;
-  font-size: 30px;
+  font-size: 26px;
   line-height: 1.61;
   text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
   text-transform: uppercase;
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .about__title {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .about__title {
+    font-size: 49px;
+  }
 }
 /*# sourceMappingURL=main.css.map */
