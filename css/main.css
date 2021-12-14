@@ -475,4 +475,10 @@ img {
   text-align: center;
   margin-bottom: 5px;
 }
+
+.about__audio {
+  width: 100%;
+  color: rgba(139, 250, 139, 0.33);
+  background: rgba(139, 250, 139, 0.33);
+}
 /*# sourceMappingURL=main.css.map */
