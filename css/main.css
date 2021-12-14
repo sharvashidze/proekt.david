@@ -397,10 +397,6 @@ img {
   background-color: green;
 }
 
-.about {
-  padding-bottom: 40px;
-}
-
 .block__video {
   position: relative;
   padding-bottom: 56.25%;
@@ -459,5 +455,24 @@ img {
   .about__title {
     font-size: 49px;
   }
+}
+
+.content {
+  padding-top: 15px;
+  background: rgba(139, 250, 139, 0.33);
+}
+
+.content__title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.content__text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  margin-bottom: 5px;
 }
 /*# sourceMappingURL=main.css.map */
