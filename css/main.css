@@ -62,10 +62,6 @@ img {
 .page-header {
   background-color: green;
   border-bottom: 1px solid #212121;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
 }
 
 .page-header__icon {
@@ -318,7 +314,7 @@ img {
 }
 
 .hero__link {
-  color: #212121;
+  color: #ffffff;
   font-weight: 900;
 }
 
