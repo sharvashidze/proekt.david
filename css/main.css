@@ -205,7 +205,8 @@ img {
 
 .hero {
   max-width: 1600px;
-  background-image: url(../images/fon.P5knV.jpg);
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.6)), to(rgba(47, 48, 58, 0.6))), url(../images/mobilka1.jpg);
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.6), rgba(47, 48, 58, 0.6)), url(../images/mobilka1.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -218,7 +219,36 @@ img {
 
 @media screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 2dppx) {
   .hero {
-    background-image: url(../images/fon.zVm8Z.jpg);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.6)), to(rgba(47, 48, 58, 0.6))), url(../images/mobilka2x.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.6), rgba(47, 48, 58, 0.6)), url(../images/mobilka2x.jpg);
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .hero {
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.6)), to(rgba(47, 48, 58, 0.6))), url(../images/planshet1.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.6), rgba(47, 48, 58, 0.6)), url(../images/planshet1.jpg);
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) and (min-resolution: 2ddpx) {
+  .hero {
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.6)), to(rgba(47, 48, 58, 0.6))), url(../images/planshet2x.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.6), rgba(47, 48, 58, 0.6)), url(../images/planshet2x.jpg);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .hero {
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.6)), to(rgba(47, 48, 58, 0.6))), url(../images/fonkomp1.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.6), rgba(47, 48, 58, 0.6)), url(../images/fonkomp1.jpg);
+  }
+}
+
+@media screen and (min-width: 1200px) and (min-resolution: 2ddpx) {
+  .hero {
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.6)), to(rgba(47, 48, 58, 0.6))), url(../images/fonkomp2x.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.6), rgba(47, 48, 58, 0.6)), url(../images/fonkomp2x.jpg);
   }
 }
 
@@ -459,6 +489,7 @@ img {
 
 .content {
   padding-top: 15px;
+  padding-bottom: 20px;
   background: rgba(139, 250, 139, 0.33);
 }
 
