@@ -326,7 +326,7 @@ img {
   height: 100vh;
   z-index: 100;
   padding: 40px 25px;
-  background: #8bfa8b;
+  background: #d1f8d1;
   -webkit-transform: translateX(100%);
           transform: translateX(100%);
   -webkit-transition: -webkit-transform 250ms ease-in-out;
