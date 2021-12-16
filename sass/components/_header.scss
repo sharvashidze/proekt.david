@@ -78,6 +78,9 @@
   @media screen and (min-width: 768px) and (max-width: 1199px) {
     margin-right: 88px;
   }
+  @media screen and (min-width: 1200px) {
+    margin-right: 93px;
+  }
 }
 // .contacts {
 //   display: flex;
@@ -90,6 +93,10 @@
   @media screen and (min-width: 768px) and(max-width:1199px) {
     margin-left: auto;
   }
+  @media screen and (min-width: 1200px) {
+    margin-left: auto;
+    display: flex;
+  }
 }
 .contacts__link {
   font-weight: 500;
@@ -101,6 +108,11 @@
   &:hover {
     color: rgb(139, 250, 139);
   }
+  @media screen and (min-width: 1200px) {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+  }
 }
 .contacts__item {
   &:not(:last-child) {
@@ -108,6 +120,9 @@
     @media screen and (min-width: 768px) and(max-width:1199px) {
       margin-bottom: 5px;
       margin-right: 0;
+    }
+    @media screen and (min-width: 1200px) {
+      margin-right: 50px;
     }
   }
 }
