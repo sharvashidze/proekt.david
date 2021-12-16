@@ -9,6 +9,9 @@
   background: rgb(209, 248, 209);
   transform: translateX(100%);
   transition: transform 250ms ease-in-out;
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
 }
 .mobile.is-open {
   transform: translateX(0);

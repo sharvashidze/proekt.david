@@ -1,0 +1,74 @@
+.catalog__title {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+  text-align: center;
+}
+.catalog {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background: rgba(139, 250, 139, 0.33);
+}
+.catalog__item {
+  max-width: 450px;
+}
+.catalog__block2 {
+  padding: 20px 24px;
+}
+.catalog__subtitle {
+  font-weight: 700;
+  //   font-size: 18px;
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: $TextColor;
+}
+.catalog__chekbox {
+  appearance: none;
+}
+.catalog__text {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: $mainColor;
+}
+.catalog__color {
+  color: $TextColor;
+}
+.catalog__text-cheked {
+  display: none;
+}
+.catalog__chekbox:checked + .catalog__text-cheked {
+  display: block;
+}
+.catalog__chekbox:checked ~ .catalog__label .catalog__btn {
+  display: none;
+}
+.catalog__btn2 {
+  display: none;
+}
+.catalog__chekbox:checked ~ .catalog__label .catalog__btn2 {
+  display: block;
+}
+.catalog__btn {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: $TextColor;
+  text-decoration: underline;
+}
+.catalog__btn2 {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: $TextColor;
+  text-decoration: underline;
+}
+.catalog__old {
+  text-decoration: line-through;
+}

@@ -156,15 +156,21 @@ img {
   color: #5ffa5f;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .logo {
-    margin-right: 90px;
+    margin-right: 88px;
   }
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .contacts {
     display: none;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .contacts {
+    margin-left: auto;
   }
 }
 
@@ -184,6 +190,13 @@ img {
 
 .contacts__item:not(:last-child) {
   margin-right: 50px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .contacts__item:not(:last-child) {
+    margin-bottom: 5px;
+    margin-right: 0;
+  }
 }
 
 .contacts__icon {
@@ -222,6 +235,7 @@ img {
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .hero {
+    padding-bottom: 118px;
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.6)), to(rgba(47, 48, 58, 0.6))), url(../images/planshet1.jpg);
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.6), rgba(47, 48, 58, 0.6)), url(../images/planshet1.jpg);
   }
@@ -236,6 +250,7 @@ img {
 
 @media screen and (min-width: 1200px) {
   .hero {
+    padding-bottom: 200px;
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.6)), to(rgba(47, 48, 58, 0.6))), url(../images/fonkomp1.jpg);
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.6), rgba(47, 48, 58, 0.6)), url(../images/fonkomp1.jpg);
   }
@@ -294,6 +309,14 @@ img {
       justify-content: space-around;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .hero__list {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
 .hero__item {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -333,6 +356,12 @@ img {
   transition: -webkit-transform 250ms ease-in-out;
   transition: transform 250ms ease-in-out;
   transition: transform 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
+}
+
+@media screen and (min-width: 768px) {
+  .mobile {
+    display: none;
+  }
 }
 
 .mobile.is-open {
@@ -507,5 +536,96 @@ img {
   width: 100%;
   color: rgba(139, 250, 139, 0.33);
   background: rgba(139, 250, 139, 0.33);
+}
+
+.catalog__title {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+  text-align: center;
+}
+
+.catalog {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background: rgba(139, 250, 139, 0.33);
+}
+
+.catalog__item {
+  max-width: 450px;
+}
+
+.catalog__block2 {
+  padding: 20px 24px;
+}
+
+.catalog__subtitle {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.catalog__chekbox {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+
+.catalog__text {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.catalog__color {
+  color: #212121;
+}
+
+.catalog__text-cheked {
+  display: none;
+}
+
+.catalog__chekbox:checked + .catalog__text-cheked {
+  display: block;
+}
+
+.catalog__chekbox:checked ~ .catalog__label .catalog__btn {
+  display: none;
+}
+
+.catalog__btn2 {
+  display: none;
+}
+
+.catalog__chekbox:checked ~ .catalog__label .catalog__btn2 {
+  display: block;
+}
+
+.catalog__btn {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: #212121;
+  text-decoration: underline;
+}
+
+.catalog__btn2 {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: #212121;
+  text-decoration: underline;
+}
+
+.catalog__old {
+  text-decoration: line-through;
 }
 /*# sourceMappingURL=main.css.map */
