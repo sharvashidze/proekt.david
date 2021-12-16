@@ -1,3 +1,67 @@
+.catalog__hero {
+  max-width: 1600px;
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.6),
+      rgba(47, 48, 58, 0.6)
+    ),
+    url(../images/david2.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 120px;
+  padding-bottom: 50px;
+  background-color: #0a112d;
+  margin-right: auto;
+  margin-left: auto;
+  @media screen and (min-resolution: 2dppx) {
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.6),
+        rgba(47, 48, 58, 0.6)
+      ),
+      url(../images/david2.jpeg);
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .catalog__hero {
+    padding-bottom: 118px;
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.6),
+        rgba(47, 48, 58, 0.6)
+      ),
+      url(../images/david2.jpeg);
+
+    @media screen and (min-resolution: 2ddpx) {
+      background-image: linear-gradient(
+          to right,
+          rgba(47, 48, 58, 0.6),
+          rgba(47, 48, 58, 0.6)
+        ),
+        url(../images/david2.jpeg);
+    }
+  }
+}
+@media screen and (min-width: 1200px) {
+  .catalog__hero {
+    padding-bottom: 250px;
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.6),
+        rgba(47, 48, 58, 0.6)
+      ),
+      url(../images/david2.jpeg);
+    @media screen and (min-resolution: 2ddpx) {
+      background-image: linear-gradient(
+          to right,
+          rgba(47, 48, 58, 0.6),
+          rgba(47, 48, 58, 0.6)
+        ),
+        url(../images/david2.jpeg);
+    }
+  }
+}
 .catalog__title {
   position: absolute;
   width: 1px;
@@ -10,7 +74,7 @@
   text-align: center;
 }
 .catalog {
-  padding-top: 15px;
+  padding-top: 30px;
   padding-bottom: 15px;
   background: rgba(139, 250, 139, 0.33);
 }

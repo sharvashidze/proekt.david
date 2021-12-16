@@ -5,7 +5,7 @@
       rgba(47, 48, 58, 0.6),
       rgba(47, 48, 58, 0.6)
     ),
-    url(../images/mobilka1.jpg);
+    url(../images/david1.jpeg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -20,7 +20,7 @@
         rgba(47, 48, 58, 0.6),
         rgba(47, 48, 58, 0.6)
       ),
-      url(../images/mobilka2x.jpg);
+      url(../images/david1.jpeg);
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
@@ -31,7 +31,7 @@
         rgba(47, 48, 58, 0.6),
         rgba(47, 48, 58, 0.6)
       ),
-      url(../images/planshet1.jpg);
+      url(../images/david3.jpeg);
 
     @media screen and (min-resolution: 2ddpx) {
       background-image: linear-gradient(
@@ -39,26 +39,26 @@
           rgba(47, 48, 58, 0.6),
           rgba(47, 48, 58, 0.6)
         ),
-        url(../images/planshet2x.jpg);
+        url(../images/david3.jpeg);
     }
   }
 }
 @media screen and (min-width: 1200px) {
   .hero {
-    padding-bottom: 200px;
+    padding-bottom: 300px;
     background-image: linear-gradient(
         to right,
         rgba(47, 48, 58, 0.6),
         rgba(47, 48, 58, 0.6)
       ),
-      url(../images/fonkomp1.jpg);
+      url(../images/davidnout.jpeg);
     @media screen and (min-resolution: 2ddpx) {
       background-image: linear-gradient(
           to right,
           rgba(47, 48, 58, 0.6),
           rgba(47, 48, 58, 0.6)
         ),
-        url(../images/fonkomp2x.jpg);
+        url(../images/davidnout.jpeg);
     }
   }
 }
@@ -80,6 +80,8 @@
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
+    margin-top: 100px;
+    margin-bottom: 50px;
   }
 }
 .hero__text {
@@ -136,10 +138,6 @@
 // }
 // .hero-photo__item {
 //   width: 150px;
-//   transform: rotate(20deg);
-//   &:not(:last-child) {
-//     margin-right: 40px;
-//   }
 // }
 // .hero-photo__item--left {
 //   transform: rotate(-20deg);
